@@ -10,7 +10,7 @@ import { ApiService } from '../serivce/api.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-page:number=1;
+  page:number=1;
   filterpage = '';
   filterpagesize = '';
   filterfromdate = '';
